@@ -1,0 +1,1 @@
+buffet = (Rice,Beans,Chicken,Meat)
