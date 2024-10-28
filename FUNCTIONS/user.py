@@ -1,4 +1,4 @@
 def greet_user(username):
-    """ Passing Information to a function """
+    """ Display a simple greeting. """
     print(f" Hello {username.title()}")
 greet_user("Terrence")
