@@ -1,4 +1,4 @@
-def favorite_book(username):
+def favorite_book(title):
     """ favorite book """
-    print(f"One of my favorite book is {username.title()} in Wonderland")
+    print(f"One of my favorite book is {title} in Wonderland")
 favorite_book('Alice')
