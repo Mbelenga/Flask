@@ -14,8 +14,7 @@ class Dog:
         print(f"{self.name} rolled over!")
 
 my_dog = Dog("Fido", 6)
-my_dog.sit()
-my_dog.roll_over()
 print(f"My dog's name is {my_dog.name}")
 print(f"My dog is {my_dog.age} years old")
-m
+my_dog.sit()
+my_dog.roll_over()
