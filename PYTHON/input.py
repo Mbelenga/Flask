@@ -8,3 +8,7 @@ print("3. Multiply")
 print("4. Divide")
 
 operation = input("Enter your choice (1/2/3/4)")
+
+if operation == '1':
+    result = num1 + num2
+    print(f"{num1} + {num2} = {result}")
