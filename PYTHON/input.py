@@ -16,3 +16,7 @@ if operation == '1':
 elif operation == '2':
     result = num1 - num2
     print(f"{num1} - {num2} = {result}")
+
+elif operation == '3':
+    result = num1 * num2
+    print(f"{num1} * {num2} = {result}")
