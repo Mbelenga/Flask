@@ -12,3 +12,7 @@ operation = input("Enter your choice (1/2/3/4)")
 if operation == '1':
     result = num1 + num2
     print(f"{num1} + {num2} = {result}")
+
+elif operation == '2':
+    result = num1 - num2
+    print(f"{num1} - {num2} = {result}")
