@@ -1,6 +1,6 @@
-def get_int():
+def add_two_integers():
+    x = int(input("x: "))
+    y = int(input("y: "))
+    print(x + y)
 
-x = get_int("x: ")
-y = get_int("y: ")
-print(x+y)
-get_int()
+add_two_integers()
