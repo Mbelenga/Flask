@@ -1,2 +1,2 @@
-name = 'Joy Muthengi'
+name = 'joy muthengi'
 print(name.title())
