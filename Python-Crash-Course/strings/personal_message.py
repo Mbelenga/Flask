@@ -1,3 +1,2 @@
-name = 'Eric'
-message = 'would you like to learn some python today'
-print(f'Hello {name}, {message}')
+personal_name = 'Eric'
+print(f' Hello, {personal_name} would you like to learn some python today')
