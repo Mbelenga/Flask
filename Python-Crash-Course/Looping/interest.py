@@ -5,6 +5,7 @@
 
 
 # Ask for the money invested and the interest rate
+money = input("How much to invest :")
 
 
 # Convert the value to a float
