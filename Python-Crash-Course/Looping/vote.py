@@ -1,4 +1,4 @@
-age = 21
+age = 25
 if age >= 18:
     print("You are an adult, you can vote")
 else:
