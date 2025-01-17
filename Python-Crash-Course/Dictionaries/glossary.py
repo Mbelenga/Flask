@@ -8,5 +8,5 @@ glossary = {
 }
 
 # Print each word and its meaning
-for number, meaning in glossary.items():
-    print(f"{number.title()}:\n{meaning}\n")
+for word, meaning in glossary.items():
+    print(f"{word.title()}:\n{meaning}\n")
