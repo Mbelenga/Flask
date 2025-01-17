@@ -1,8 +1,8 @@
 # Define a dictionary to store information about a person
 person = {
-    'first_name': 'Sharon',
-    'last_name': 'Mumbi',
-    'age': 21,
+    'first_name': 'Vivian',
+    'last_name': 'Achieng',
+    'age': 25,
     'city': 'Nairobi'
 }
 
