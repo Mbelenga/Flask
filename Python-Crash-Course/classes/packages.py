@@ -1,6 +1,6 @@
 class Package:
     def __init__(self, number, sender, recipient, weight):
-        self.number = numbe
+        self.number = number
         self.sender = sender
         self.recipient = recipient
         self.weight = weight
