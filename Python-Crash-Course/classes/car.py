@@ -16,7 +16,22 @@ class Car:
     def read_odometer(self):
         """prints the odometer reading"""
         print(f"This car has {self.odometer_reading} miles on it")
+    
+    def update_odometer(self, mileage):
+        """sets the odometer reding to the given value"""
+        if mileage >= self.odometer_reading:
+            self.odometer_reading = mileage
+        else:
+            print("You can't roll back an odometer!")
+    
+    def increment_odometer(self, miles):
+        """Adds the given amount to the odometer reading"""
+        self.odometer_reading += miles
 
-my_new_car = Car('audi', 'a4', '2025')
-print(my_new_car.get_descriptive_name())
-my_new_car.read_odometer()
+class Electricar(car):
+    """Car specific to electric vehicles"""
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+
+my_leaf = Electricar('Nissan', 'leaf', 2024)
+print(my_leaf.get_descriptive_name())
