@@ -16,7 +16,7 @@ class User:
     def greet_user(self):
         print(f"\nHello, {self.first_name}! Welcome Back")
 
-user1 = User("Sophie", "Mrashui", "24", "mrashuisophie@gmail.com", "Taita Hills")
+user1 = User("Wakesho", "Mrashui", "24", "mrashuisophie@gmail.com", "Taita Hills")
 user2 = User("Trivah", "Njoki", "26", "trivah101@gmail.com", "Machakos")
 
 user1.describe_user()
