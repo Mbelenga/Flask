@@ -18,9 +18,13 @@ class User:
 
 user1 = User("Wakesho", "Mrashui", "24", "mrashuisophie@gmail.com", "Taita Hills")
 user2 = User("Trivah", "Njoki", "26", "trivah101@gmail.com", "Machakos")
+user3 = User("Tracy", "Maina", "21", "mainatracy@gmail.com", "Nairobi")
 
 user1.describe_user()
 user1.greet_user()
 
 user2.describe_user()
 user2.greet_user()
+
+user3.describe_user()
+user3.greet_user()
