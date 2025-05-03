@@ -1,2 +1,2 @@
-a = True
+a = "Hello"
 print(type(a))
