@@ -5,3 +5,4 @@ class Instructor:
 
 Instructor_1 = Instructor("Mathew","Nairobi")
 print(Instructor_1.name)
+# create two more instructors
