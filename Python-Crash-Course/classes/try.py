@@ -6,8 +6,8 @@ class Instructor:
 Instructor_1 = Instructor("Mathew","Nairobi")
 print(Instructor_1.name)
 
-Instructor_1 = Instructor("Evans","Nakuru")
+Instructor_2 = Instructor("Evans","Nakuru")
 print(Instructor_2.name)
 
-Instructor_1 = Instructor("Jenny","Mombasa")
+Instructor_3 = Instructor("Jenny","Mombasa")
 print(Instructor_3.name)
