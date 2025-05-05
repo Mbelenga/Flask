@@ -28,10 +28,11 @@ class Car:
         """Adds the given amount to the odometer reading"""
         self.odometer_reading += miles
 
-class Electricar(car):
+class Electricar(Car):
     """Car specific to electric vehicles"""
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
 
-my_leaf = Electricar('Nissan', 'leaf', 2024)
-print(my_leaf.get_descriptive_name())
+my_new_car = Electricar('Nissan', 'leaf', 2024)
+print(my_new_car.get_descriptive_name())
+my_new_car.read_odometer()
