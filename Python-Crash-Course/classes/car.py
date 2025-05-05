@@ -18,7 +18,10 @@ class Car:
         print(f"This car has {self.odometer_reading} miles on it")
     
     def update_odometer(self, mileage):
-        """sets the odometer reding to the given value"""
+        """
+        sets the odometer reding to the given value
+        Reject the change if it attempts to roll the odometer back
+        """
         if mileage >= self.odometer_reading:
             self.odometer_reading = mileage
         else:
