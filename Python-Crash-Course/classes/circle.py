@@ -8,3 +8,5 @@ class Circle:
 
 Circle_1 = Circle(4)
 print(Circle_1.get_circumference())
+
+# Next task find the area of a rectangle
