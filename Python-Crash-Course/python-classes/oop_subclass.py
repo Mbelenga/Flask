@@ -26,3 +26,10 @@ class Student(SchoolMember):
         SchoolMember.__init__(self, name, age)
         self.marks marks
         print("(Initialized Student: {}).format(self.name)")
+    
+    def tell(self):
+        SchoolMember.tell(self)
+        print('marks: "{:d}"'.format(self.marks))
+
+t = Teacher('Mrs Mumbua, 30, 40000')
+s = Student('Jean', 17, 80)
