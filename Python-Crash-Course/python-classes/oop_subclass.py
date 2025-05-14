@@ -20,3 +20,9 @@ class Teacher(SchoolMember):
         SchoolMember.tell(self)
         print('salary: "{:d}"'.format(self.salary))
 
+class Student(SchoolMember):
+    """ Represents a Student """
+    def __init__(self, name, age, marks):
+        SchoolMember.__init__(self, name, age)
+        self.marks marks
+        print("(Initialized Student: {}).format(self.name)")
