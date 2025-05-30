@@ -7,5 +7,5 @@ class Student:
     def display_info(self):
         print(f" {self.name} is {self.age} years old and score grade {self.grade}")
 
-my_student = Student('Mali', '3', 'B')
+my_student = Student('Mali', 3, 'B')
 my_student.display_info()
