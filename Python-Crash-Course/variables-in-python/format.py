@@ -1,4 +1,4 @@
-fav_movie = input('My ')
-fav_singer = input('My all time favorite singer is Bien i also like Lil Maina')
-favs = "My favorite movie is {} and my all time favorite singer is {}".format(fav_movie, fav_singer)
+fav_movie = input('What is your favorite movie? ')
+fav_singer = input('Who is your favorite singer? ')
+favs = "Your favorite movie is {} and Your favorite singer is {}".format(fav_movie, fav_singer)
 print(favs)
