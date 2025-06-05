@@ -10,4 +10,4 @@ total = total + tip_amount
 
 total = round(total, 2)
 
-print("The total bill is $", total, sep = '')
+print("The total bill is $
