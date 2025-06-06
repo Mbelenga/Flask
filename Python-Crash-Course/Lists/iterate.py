@@ -1,9 +1,9 @@
-name = input('What is your name?')
+name = input('What is your name? ')
 letter_count = 0
 
 print(name, "is spelled:")
 for x in name:
-    print(x, end=" ")
+    print(x, end= ' ')
 
 letter_count += 1
 print("")
