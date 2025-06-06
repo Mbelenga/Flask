@@ -15,3 +15,7 @@ Ben = {
     'grades': [66, 69, 77, 85, 90],
     'attendance' : [False, False, False, False, False]
 }
+
+students = {'1': 'Billy', '2': 'Sarah', '3': 'Ben'}
+# get number of students
+print(len(students)) # number of keys
