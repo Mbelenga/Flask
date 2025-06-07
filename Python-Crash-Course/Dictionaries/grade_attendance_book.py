@@ -25,3 +25,7 @@ print(students.keys())
 # iterate
 for k in students:
     print('key:', k)
+
+# get billy's attendance
+Billy = students['1']
+print(Billy['attendance'])
