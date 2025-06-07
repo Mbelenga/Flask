@@ -29,3 +29,7 @@ for k in students:
 # get billy's attendance
 Billy = students['1']
 print(Billy['attendance'])
+
+#get Sarah's grades
+Sarah = students['2']
+print(Sarah['grades'])
