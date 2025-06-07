@@ -19,3 +19,9 @@ Ben = {
 students = {'1': 'Billy', '2': 'Sarah', '3': 'Ben'}
 # get number of students
 print(len(students)) # number of keys
+
+print(students.keys())
+
+# iterate
+for k in students:
+    print('key:', k)
