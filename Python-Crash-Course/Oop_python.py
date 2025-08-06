@@ -1,6 +1,6 @@
 class Building:
     def __init__(self, address):
-        self.address = adress
+        self.address = address
     
     def describe(self):
         return f"This building is at {self.address}"
@@ -16,5 +16,5 @@ class House(Building):
     def describe_print(self):
         print(f"This house is blue and the garden is {self.garden_size} big")
 
-my_house = House('Syokimau, Machakos', '182')
+my_house = House('Syokimau, Machakos', '18200')
 my_house.describe_print()
