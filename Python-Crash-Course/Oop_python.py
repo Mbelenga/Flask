@@ -24,6 +24,9 @@ class Appartment(Building):
     def describe(self):
         return f"This appartment is on floor {self.floor_number}"
 
+building = [House('Syokimau', '182000'), Appartment('Elm street', 90)]
+for building in buildings:
+    print(building.describe())
 my_house = House('Syokimau, Machakos', '18200')
 my_house.describe_print()
 print(my_house.describe())
