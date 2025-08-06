@@ -15,3 +15,6 @@ class House(Building):
     
     def describe_print(self):
         print(f"This house is blue and the garden is {self.garden_size} big")
+
+my_house = House('Syokimau, Machakos', '182')
+my_house.describe_print()
