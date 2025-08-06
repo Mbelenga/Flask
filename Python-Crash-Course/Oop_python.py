@@ -16,5 +16,14 @@ class House(Building):
     def describe_print(self):
         print(f"This house is blue and the garden is {self.garden_size} big")
 
+class Appartment(Building):
+    def __init__(self, address, floor_number):
+        super().__init__(address)
+        self.floor_number = floor_number
+    
+    def describe(self):
+        return f"This appartment is on floor {self.floor_number}"
+
 my_house = House('Syokimau, Machakos', '18200')
 my_house.describe_print()
+print(my_house.describe())
